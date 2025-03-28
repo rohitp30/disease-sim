@@ -239,10 +239,10 @@ while running:
     # Display stats (bottom-right)
     font = pygame.font.Font(None, 24)
     stats_text = [
-        f"Healthy: {healthy_count}",
-        f"Infected: {infected_count}",
-        f"Recovered: {recovered_count}",
-        f"Dead: {dead_count}"
+        f"Healthy: {healthy_count} (Green)",
+        f"Infected: {infected_count} (Red)",
+        f"Recovered: {recovered_count} (Blue)",
+        f"Dead: {dead_count} (Black)"
     ]
     y_offset = HEIGHT - 80
     for text in stats_text:
